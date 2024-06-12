@@ -1,0 +1,20 @@
+{
+  "name": "test-sse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-sse": "^0.5.3",
+    "pg": "^8.11.5"
+  },
+  "proxy": "http://localhost:3001"
+}
